@@ -37,12 +37,12 @@ Technologies:
 
 How to Use:
   1. Install dependencies:
-    npm install
+        npm install
 
   2. Start the JSON Server:
-    npx json-server --watch db.json --port 5000
+       npx json-server --watch db.json --port 5000
 
   3. Start the React application:
-    npm start
+       npm start
 
   4. The application will be available at: http://localhost:3000/.
