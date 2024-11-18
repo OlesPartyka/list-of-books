@@ -5,27 +5,28 @@ Objective:
 
 Features:
   1. View Books:
-    Displays a list of all books with their titles and authors.
-    Includes a filter to search books by title.
+       Displays a list of all books with their titles and authors.
+       Includes a filter to search books by title.
   
   2. Add Books:
-    A form to add a new book with the following fields:
-      Book title.
-      Author selection from a dropdown list.
+       A form to add a new book with the following fields:
+         Book title.
+         Author selection from a dropdown list.
   
   3. Edit Books:
-    Allows updating the title or author of a book.
+       Allows updating the title or author of a book.
   
-  4.Delete Books:
-    Deletes a book from the list.
+  4. Delete Books:
+       Deletes a book from the list.
   
-  5.Notifications:
-    Displays a notification for successful addition, update, or deletion of a book. Notifications automatically disappear after 5 seconds.
+  5. Notifications:
+       Displays a notification for successful addition, update, or deletion of a book. Notifications automatically disappear after 5 seconds.
   
-  6.Auto-refresh:
-    The book list updates automatically after adding, editing, or deleting a book.
+  6. Auto-refresh:
+       The book list updates automatically after adding, editing, or deleting a book.
 
 Technologies:
+
   Frontend:
     React: Functional components and hooks for state management.
     Bootstrap: For basic styling and responsive design.
