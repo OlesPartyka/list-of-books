@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Project Description: List of books
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Objective:
+  A single-page application (SPA) built with React for managing a list of books. The application allows users to view the book list, add new books, edit existing ones, and delete books.
 
-## Available Scripts
+Features:
+  1. View Books:
+    Displays a list of all books with their titles and authors.
+    Includes a filter to search books by title.
+  
+  2. Add Books:
+    A form to add a new book with the following fields:
+      Book title.
+      Author selection from a dropdown list.
+  
+  3. Edit Books:
+    Allows updating the title or author of a book.
+  
+  4.Delete Books:
+    Deletes a book from the list.
+  
+  5.Notifications:
+    Displays a notification for successful addition, update, or deletion of a book. Notifications automatically disappear after 5 seconds.
+  
+  6.Auto-refresh:
+    The book list updates automatically after adding, editing, or deleting a book.
 
-In the project directory, you can run:
+Technologies:
+  Frontend:
+    React: Functional components and hooks for state management.
+    Bootstrap: For basic styling and responsive design.
+    SCSS: For custom styles using variables, nesting, and advanced features.
+    JSON Server:
+    A local server to store and handle book and author data.
+    Default Port: http://localhost:5000/
 
-### `npm start`
+How to Use:
+  1. Install dependencies:
+    npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  2. Start the JSON Server:
+    npx json-server --watch db.json --port 5000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  3. Start the React application:
+    npm start
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  4. The application will be available at: http://localhost:3000/.
